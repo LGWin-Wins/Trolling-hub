@@ -323,7 +323,7 @@ applySquircle(DomainXButton)
 local SkyHubButton = Instance.new("TextButton")
 SkyHubButton.Size = UDim2.new(0, 275, 0, 50)
 SkyHubButton.Position = UDim2.new(0, 15, 0, 300) -- Positioned under
-SkyHubButton.Text = "SkyHub Noodelt"
+SkyHubButton.Text = "SkyHub Random"
 SkyHubButton.TextScaled = true
 SkyHubButton.BackgroundColor3 = Color3.fromRGB(20, 20,90) -- Slightly darker blue
 SkyHubButton.TextColor3 = Color3.new(1, 1, 1)
@@ -403,17 +403,17 @@ TSBButton.Visible = false
 applySquircle(TSBButton)
 
 -- Credits text, keeping the credits would be nice :)
-local CreditsText = Instance.new("Noodelt")
+local CreditsText = Instance.new("Random")
 CreditsText.Size = UDim2.new(0, 275, 0, 50)
 CreditsText.TextScaled = true -- size itself
 CreditsText.BackgroundTransparency = 1
 CreditsText.Position = UDim2.new(0, 15, 0, 0) 
 -- Positioned 
-CreditsText.Text = "Script GUI made by @Noodelt"
+CreditsText.Text = "Script GUI made by @Random On Discord lol"
 CreditsText.BackgroundColor3 = Color3.fromRGB(20, 20, 90)
 CreditsText.TextColor3 = Color3.new(1, 1, 1)
 CreditsText.Parent = ScrollFrame
-CreditsText.Visible = false --Initially hidden under the CREDITS tab
+CreditsText.Visible = True --Initially hidden under the CREDITS tab
 
 -- explain text
 local ExplainText = Instance.new("TextLabel")
@@ -421,7 +421,7 @@ ExplainText.Size = UDim2.new(0, 275, 0, 50)
 ExplainText.BackgroundTransparency = 1
 ExplainText.Position = UDim2.new(0, 15, 0, 60) 
 -- Positioned 
-ExplainText.Text = "(Some scripts aren't made by me)"
+ExplainText.Text = "(made by Random Guy)"
 ExplainText.BackgroundColor3 = Color3.fromRGB(20, 20, 90)
 ExplainText.TextColor3 = Color3.new(1, 1, 1)
 ExplainText.Parent = ScrollFrame
